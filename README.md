@@ -27,6 +27,9 @@ We follow a medallion architecture to process the data. Since the data stored in
 
 A tool to run Python code and use Poetry.
 
+Attach the folder named credentials to the main directory like this 
+![alt text](image-1.png)
+
 
 
 ## Usage Guide
