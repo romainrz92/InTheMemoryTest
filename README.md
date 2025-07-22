@@ -13,7 +13,7 @@ We use specific access keys for both Azure Storage Blob and Google BigQuery. The
 We follow a medallion architecture to process the data. Since the data stored in Azure Storage Blob is stable and directly accessible, we consider this the Bronze layer. From there, we ingest and transform the data into a Silver dataset. Finally, we retrieve the Silver data again and further refine it to meet the standards required for the Gold layer.
 
 #### Project Architecture for Loading Data from Azure Blob Storage into a DBMS (Google BigQuery)
-![alt text](image.png)
+![alt text](Architecture.png)
 
 
 #### Data model at the Gold layer
@@ -28,7 +28,7 @@ We follow a medallion architecture to process the data. Since the data stored in
 A tool to run Python code and use Poetry.
 
 Attach the folder named credentials to the main directory like this 
-![alt text](image-1.png)
+![alt text](CredentialsFolder.png)
 
 
 
