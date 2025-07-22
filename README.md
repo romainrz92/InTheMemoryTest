@@ -23,7 +23,7 @@ We follow a medallion architecture to process the data. Since the data stored in
 
 
 
-## Prérequis 
+## Prerequisites
 
 A tool to run Python code and use Poetry.
 
